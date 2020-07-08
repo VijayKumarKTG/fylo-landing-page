@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body h1,
+body h2,
+body h3 {
+  font-family: "Raleway", sans-serif;
+}
+body img {
+  width: 100%;
+  object-fit: cover;
+}
+body main {
+  background: url(../../images/bg-curve-mobile.svg) 0px 730px/100% 5% no-repeat;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 80px;
+}
+header img {
+  width: 25%;
+  float: left;
+  cursor: pointer;
+}
+header nav {
+  display: inline-block;
+  text-align: right;
+  width: 75%;
+}
+header nav ul {
+  list-style-type: none;
+  display: block;
+  text-align: right;
+}
+header nav ul li {
+  display: inline;
+  font-size: 13px;
+  margin: 0px 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #070439;
+}
+
+#get_started {
+  padding: 0px 30px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+#get_started div h2 {
+  margin: 30px 0px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #070439;
+}
+#get_started div p {
+  font-size: 15px;
+  color: #070439;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#get_started div form input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #585989;
+  border-radius: 5px;
+  padding: 13px;
+  background-color: #f6f6fe;
+}
+#get_started div form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  color: #f6f6fe;
+  background-color: #3065f8;
+  border: none;
+  margin: 10px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#how_work {
+  padding: 0px 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: #f6f6fe;
+}
+#how_work div h2 {
+  margin: 30px 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #070439;
+}
+#how_work div p {
+  font-size: 15px;
+  color: #585989;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#how_work div div {
+  margin-top: 30px;
+}
+#how_work div div a {
+  color: #3c9f8f;
+  text-decoration: none;
+  border-bottom: 2px solid #3c9f8f;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+#how_work div div a img {
+  width: 30px;
+  vertical-align: bottom;
+}
+
+#how_work div #feedbacks {
+  padding: 0px 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #f6f6fe;
+}
+#how_work div #feedbacks div {
+  width: 90%;
+  margin: 0px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 3px #bfbfbf;
+}
+#how_work div #feedbacks div p {
+  font-size: 12px;
+  color: #070439;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#how_work div #feedbacks div p {
+  word-spacing: 2px;
+  font-weight: 600;
+}
+#how_work div #feedbacks div p img {
+  width: 20px;
+}
+#how_work div #feedbacks div .avatar {
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-shadow: none;
+  border-radius: 0px;
+  border: none;
+}
+#how_work div #feedbacks div .avatar img {
+  width: 20%;
+  border-radius: 50%;
+}
+#how_work div #feedbacks div .avatar > span {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -35px;
+}
+#how_work div #feedbacks div .avatar > span strong {
+  font-size: 15px;
+}
+#how_work div #feedbacks div .avatar > span span {
+  font-size: 10px;
+}
+
+#early_access {
+  padding: 0px 35px;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: #585989;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#early_access div h2 {
+  margin: 30px 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #f6f6fe;
+}
+#early_access div p {
+  font-size: 15px;
+  color: #f6f6fe;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-align: center;
+}
+#early_access form input {
+  width: 85%;
+  outline: none;
+  border: 2px solid #585989;
+  border-radius: 5px;
+  padding: 13px;
+  background-color: #f6f6fe;
+}
+#early_access form button {
+  width: 84%;
+  padding: 10px;
+  font-size: 15px;
+  color: #f6f6fe;
+  background-color: #3065f8;
+  border: none;
+  margin: 10px 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #070439;
+  padding: 30px;
+}
+footer div img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+footer div ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+footer div ul li {
+  margin-bottom: 10px;
+}
+footer div ul li a {
+  color: #bfbfbf;
+  text-decoration: none;
+  vertical-align: middle;
+}
+footer div ul li a img {
+  width: 20px;
+  margin: 0px;
+}
+footer .social {
+  text-align: center;
+}
+footer .social li {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #bfbfbf;
+  border-radius: 50%;
+  margin: 0px 10px;
+  width: 40px;
+  height: 40px;
+}
+footer .social li a {
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    background-position-y: 848px !important;
+  }
+}
+@media screen and (min-width: 728px) {
+  body main {
+    background-position-y: 1000px !important;
+  }
+
+  header nav ul li {
+    font-size: 25px;
+  }
+
+  #get_started h2 {
+    font-size: 30px;
+  }
+  #get_started p {
+    font-size: 20px;
+  }
+  #get_started form input,
+#get_started form button {
+    width: 70%;
+  }
+
+  #how_work h2 {
+    font-size: 22px;
+  }
+  #how_work p {
+    font-size: 19px;
+  }
+
+  #feedbacks div p {
+    font-size: 15px;
+  }
+  #feedbacks div .avatar img {
+    width: 50px;
+  }
+
+  #early_access h2 {
+    font-size: 22px;
+  }
+  #early_access p {
+    font-size: 19px;
+  }
+  #early_access form input,
+#early_access form button {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 728px) {
+  body main {
+    background-position-y: 1100px !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body main {
+    background-image: url(../../images/bg-curve-desktop.svg);
+    background-position: 0px 550px !important;
+    background-size: 100% 10%;
+  }
+
+  header {
+    padding: 40px 70px;
+    margin-bottom: 0px;
+  }
+  header img {
+    width: 13%;
+  }
+  header nav {
+    width: 85%;
+  }
+  header nav ul li {
+    font-size: 15px;
+  }
+
+  #get_started {
+    display: flex;
+    justify-content: left;
+    padding: 0px 70px;
+    margin-bottom: 200px;
+  }
+  #get_started img {
+    width: 50%;
+    margin: 20px;
+    order: 2;
+  }
+  #get_started div {
+    margin: 100px 40px 0px 20px;
+  }
+  #get_started div h2 {
+    margin: 30px 0px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #070439;
+    text-align: left;
+  }
+  #get_started div p {
+    font-size: 16px;
+    color: #070439;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-weight: bold;
+  }
+  #get_started div form {
+    text-align: left;
+  }
+  #get_started div form input {
+    width: 50%;
+    outline: none;
+    border: 2px solid #585989;
+    border-radius: 3px;
+    padding: 13px;
+    background-color: #f6f6fe;
+  }
+  #get_started div form button {
+    width: 40%;
+    padding: 10px;
+    font-size: 20px;
+    color: #f6f6fe;
+    background-color: #3065f8;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 15px;
+    vertical-align: middle;
+  }
+
+  #how_work {
+    display: flex;
+    justify-content: left;
+    padding: 70px;
+  }
+  #how_work img {
+    order: 2;
+    width: 50%;
+    margin: 20px;
+    object-fit: contain;
+  }
+  #how_work div {
+    margin-right: 40px;
+  }
+  #how_work div h2 {
+    margin: 30px 0px;
+    font-size: 33px;
+    font-weight: bold;
+    color: #070439;
+    text-align: left;
+  }
+  #how_work div p {
+    font-size: 15px;
+    color: #585989;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    width: 80%;
+  }
+  #how_work div div {
+    margin: 0px;
+    text-align: left;
+  }
+  #how_work div div a img {
+    margin: 0px;
+  }
+
+  #how_work div #feedbacks {
+    width: 60%;
+  }
+  #how_work div #feedbacks div {
+    margin: 0px;
+  }
+  #how_work div #feedbacks div p {
+    font-size: 12px;
+    color: #070439;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    word-spacing: 2px;
+    font-weight: 600;
+  }
+  #how_work div #feedbacks div p img {
+    width: 15px;
+    margin: 0px;
+  }
+  #how_work div #feedbacks div .avatar img {
+    width: 17%;
+    margin: 0px;
+  }
+
+  #early_access {
+    display: flex;
+    justify-content: left;
+    padding: 70px;
+  }
+  #early_access div {
+    width: 50%;
+    padding-right: 100px;
+  }
+  #early_access div h2 {
+    margin: 30px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #f6f6fe;
+    text-align: left;
+  }
+  #early_access div p {
+    font-size: 18px;
+    color: #f6f6fe;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  #early_access form {
+    width: 50%;
+    padding: 50px 0px 0px 150px;
+    text-align: left;
+  }
+  #early_access form input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #585989;
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #f6f6fe;
+  }
+  #early_access form button {
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+    color: #f6f6fe;
+    background-color: #3065f8;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  footer {
+    padding: 70px;
+  }
+  footer div img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  footer div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  footer .social li {
+    padding: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

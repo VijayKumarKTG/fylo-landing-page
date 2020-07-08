@@ -1,0 +1,43 @@
+@use 'var';
+
+@mixin mb-section-spacing($padding, $margin) {
+  padding: 0px $padding;
+  text-align: center;
+  margin-bottom: $margin;
+}
+
+@mixin mb-h2($fontSize, $color) {
+  margin: 30px 0px;
+  font-size: $fontSize;
+  font-weight: bold;
+  color: $color;
+}
+
+@mixin mb-p($textAlign, $fontSize, $marginB, $color) {
+  font-size: $fontSize;
+  color: $color;
+  font-weight: 500;
+  margin-bottom: $marginB;
+  text-align: $textAlign;
+}
+
+@mixin mb-form-input($width, $radius) {
+  width: $width;
+  outline: none;
+  border: 2px solid var.$desaturatedBlue;
+  border-radius: $radius;
+  padding: 13px;
+  background-color: var.$lightGrayishBlue;
+}
+
+@mixin mb-form-button($width, $fontSize, $radius) {
+  width: $width;
+  padding: 10px;
+  font-size: $fontSize;
+  color: var.$lightGrayishBlue;
+  background-color: var.$brightBlue;
+  border: none;
+  margin: 10px 0px;
+  border-radius: $radius;
+  cursor: pointer;
+}
