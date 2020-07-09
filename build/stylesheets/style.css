@@ -349,7 +349,7 @@ footer .social li a {
   #get_started {
     display: flex;
     justify-content: left;
-    padding: 0px 70px;
+    padding: 70px;
     margin-bottom: 200px;
   }
   #get_started img {
@@ -404,6 +404,7 @@ footer .social li a {
     display: flex;
     justify-content: left;
     padding: 70px;
+    margin-bottom: 0px;
   }
   #how_work img {
     order: 2;
@@ -467,6 +468,7 @@ footer .social li a {
     display: flex;
     justify-content: left;
     padding: 70px;
+    margin-bottom: 0px;
   }
   #early_access div {
     width: 50%;

@@ -41,3 +41,10 @@
   border-radius: $radius;
   cursor: pointer;
 }
+
+@mixin xl-layout($padding, $margin) {
+  display: flex;
+  justify-content: left;
+  padding: $padding;
+  margin-bottom: $margin;
+}

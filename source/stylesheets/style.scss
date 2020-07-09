@@ -370,10 +370,7 @@ footer {
   }
 
   #get_started {
-    display: flex;
-    justify-content: left;
-    padding: 0px 70px;
-    margin-bottom: 200px;
+    @include mixins.xl-layout(70px, 200px);
 
     img {
       width: 50%;
@@ -409,9 +406,7 @@ footer {
   }
 
   #how_work {
-    display: flex;
-    justify-content: left;
-    padding: 70px;
+    @include mixins.xl-layout(70px, 0px);
 
     img {
       order: 2;
@@ -473,9 +468,7 @@ footer {
   }
 
   #early_access {
-    display: flex;
-    justify-content: left;
-    padding: 70px;
+    @include mixins.xl-layout(70px, 0px);
 
     div {
       width: 50%;
