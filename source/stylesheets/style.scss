@@ -236,11 +236,14 @@ footer {
   }
 
   .social {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 
     li {
-      display: inline-block;
-      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding: 7px;
       border: 2px solid var.$lightGray;
       border-radius: 50%;
       margin: 0px 10px;
@@ -510,10 +513,6 @@ footer {
       display: flex;
       justify-content: space-between;
       width: 90%;
-    }
-
-    .social li {
-      padding: 5px;
     }
   }
 }

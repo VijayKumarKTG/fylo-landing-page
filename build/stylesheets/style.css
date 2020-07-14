@@ -247,11 +247,14 @@ footer div ul li a img {
   margin: 0px;
 }
 footer .social {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 footer .social li {
-  display: inline-block;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 7px;
   border: 2px solid #bfbfbf;
   border-radius: 50%;
   margin: 0px 10px;
@@ -524,9 +527,6 @@ footer .social li a {
     display: flex;
     justify-content: space-between;
     width: 90%;
-  }
-  footer .social li {
-    padding: 5px;
   }
 }
 
